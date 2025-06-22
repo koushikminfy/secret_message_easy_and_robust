@@ -1,14 +1,10 @@
 
-###  `README.md`
 
-# Secret Message Service (Basic)
-
-A simple Express.js backend that allows users to post, retrieve, and manage **ephemeral secret messages**.
-These messages are stored only in memory and vanish if the server is restarted.
+# Secret Message Service 
 
 ---
 
-
+# (Basic)
 
 ##  Getting Started
 
@@ -81,8 +77,8 @@ GET http://localhost:3000/messages/0
 
 
 ---
-
-## 📁 Project Structure for Part 2
+## Robust
+##  Project Structure 
 
 ```
 secret-message-robust/
@@ -102,17 +98,17 @@ secret-message-robust/
 
 ---
 
-## ✅ Step-by-Step Setup
+##  Step-by-Step Setup
 
 ### 1. Initialize Project
 
 
 ```markdown
-# 🔐 Secret Message Service (Robust)
+#  Secret Message Service (Robust)
 ---
 
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Install dependencies
 
@@ -128,9 +124,9 @@ bun start
 
 ---
 
-## 📡 API Endpoints
+##  API Endpoints
 
-### ✅ `POST /` — Create a message
+###  `POST /` — Create a message
 * `POST http://localhost:3000/api/v1/messages`
 **Body:**
 
@@ -145,14 +141,14 @@ bun start
 
 
 
-### 📥 `GET /` — Get all messages
+###  `GET /` — Get all messages
 * `GET http://localhost:3000/api/v1/messages`
 **Response:**
 ![1001](https://github.com/user-attachments/assets/f42ab409-be34-4729-8d14-ae4c6ac77d39)
 
 
 
-### 🔍 `GET /:id` — Get message by ID
+###  `GET /:id` — Get message by ID
 * `GET http://localhost:3000/api/v1/messages/:id`
 **Response :**
 
@@ -160,7 +156,7 @@ bun start
 
 
 
-### ❌ `DELETE /:id` — Delete message by ID
+###  `DELETE /:id` — Delete message by ID
 * `DELETE http://localhost:3000/api/v1/messages/:id`
 **Response:**
 
